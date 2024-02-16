@@ -1,0 +1,13 @@
+import java.util.*;
+class constructor
+{
+	constructor(int a,int b)
+	{
+		System.out.println("this argument is contructor");
+		System.out.println("sum of a+b ::"+(a+b));
+	}
+	public static void main(String args[])
+	{
+		constructor sc=new constructor(10,20);
+	}
+}
